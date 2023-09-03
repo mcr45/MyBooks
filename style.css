@@ -14,6 +14,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 27px;
 }
 #prova{
     position: fixed;
@@ -31,7 +33,7 @@ backdrop-filter: blur(5px);
 #prova form{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 15px;
     border: solid 1px red;
     border-radius: 35px;
     width: 65%;
@@ -39,5 +41,21 @@ backdrop-filter: blur(5px);
 }
 
 form input{
-    width: 89px;
+    appearance: none;
+}
+
+
+button,input,select, textarea { box-sizing:border-box; width:250px;height: 35px; margin:0; padding:0}
+
+button{border-radius:5px}
+ button:hover, button:focus{ color:#fff; outline:none; background:#000}
+ button, input, textarea, select{ font-family:inherit; font-size:100%;  box-shadow: inset 1px 1px 3px #ccc;
+    border-radius: 5px;}
+
+table button{
+    display: block;
+    width: 75%;
+    height: 80%;
+    font-size: 15px;
+    margin: 0 auto;
 }

@@ -20,7 +20,7 @@
     <col style="background-color: aqua;">
     <col style="background-color: bisque;">
     <col style="background-color: cornflowerblue;">
-    <col style="background-color: chocolate;">
+    <col style="background-color: rgb(50, 85, 5);color: azure;">
     </colgroup>
     <tr>
         <th>Title</th>
@@ -29,18 +29,19 @@
         <th>Status</th>
         <th>Update</th>
     </tr>
+    
     </table>
 </div>
 
-<div id="prova" class="bookform">
+<div id="prova" class="bookform" style="display: none;">
     <form action="" >
     <label for="title">title</label>
-        <input type="text" name="title" id="" placeholder="title">
+        <input type="text" name="title" id="title" placeholder="title">
       <label for="author">author</label>
-        <input type="text" name="author" id="" placeholder="author">
+        <input type="text" name="author" id="author" placeholder="author">
       <label for="number">number of pages</label>
-        <input type="number" name="pages" id="" placeholder="number of pages">
-        <button type="submit">Create</button>
+        <input type="number" name="pages" id="pages" placeholder="number of pages">
+        <button id="send" type="submit">Create</button>
     </form>
 </div>
 </body>
