@@ -48,7 +48,7 @@ form input{
 button,input,select, textarea { box-sizing:border-box; width:250px;height: 35px; margin:0; padding:0}
 
 button{border-radius:5px}
- button:hover, button:focus{ color:#fff; outline:none; background:#000}
+ button:hover, button:focus{ color:#fff; outline:none; background:#0eba73}
  button, input, textarea, select{ font-family:inherit; font-size:100%;  box-shadow: inset 1px 1px 3px #ccc;
     border-radius: 5px;}
 
